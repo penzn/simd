@@ -666,7 +666,7 @@ natural alignment.
 
 Load a `v128` vector from the given heap address.
 
-Extended loads:
+Extended loads, which fetch consequtive integers up to 32-bit wide and produce a vector with lanes up to 64 bits:
 
 * `i8x8.zxload(memarg) -> v128`: load eight 8-bit integers and zero extend each one to a 16-bit lane
 * `i8x8.sxload(memarg) -> v128`: load eight 8-bit integers and sign extend each one to a 16-bit lane

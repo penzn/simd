@@ -139,12 +139,12 @@
 | `f32x4.convert_u/i32x4`   |               `-msimd128` | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | `f64x2.convert_s/i64x2`   | `-munimplemented-simd128` |                    | :heavy_check_mark: | :heavy_check_mark: |
 | `f64x2.convert_u/i64x2`   | `-munimplemented-simd128` |                    | :heavy_check_mark: | :heavy_check_mark: |
-| `i8x8.zxload`             |                           |                    |                    |                    |
-| `i8x8.sxload`             |                           |                    |                    |                    |
-| `i16x4.zxload`            |                           |                    |                    |                    |
-| `i16x4.sxload`            |                           |                    |                    |                    |
-| `i32x2.zxload`            |                           |                    |                    |                    |
-| `i32x2.sxload`            |                           |                    |                    |                    |
+| `i16x8.load8x8_u`         |                           |                    |                    |                    |
+| `i16x8.load8x8_s`         |                           |                    |                    |                    |
+| `i32x4.load16x4_u`        |                           |                    |                    |                    |
+| `i32x4.load16x4_s`        |                           |                    |                    |                    |
+| `i64x2.load32x2_u`        |                           |                    |                    |                    |
+| `i64x2.load32x2_s`        |                           |                    |                    |                    |
 | `v8x16.shuffle1`          |                           |                    | :heavy_check_mark: |                    |
 | `v8x16.shuffle2_imm`      |                           |                    | :heavy_check_mark: | :heavy_check_mark: |
 

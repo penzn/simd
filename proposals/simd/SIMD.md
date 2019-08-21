@@ -668,12 +668,12 @@ Load a `v128` vector from the given heap address.
 
 Extended loads, which fetch consequtive integers up to 32-bit wide and produce a vector with lanes up to 64 bits:
 
-* `i8x8.zxload(memarg) -> v128`: load eight 8-bit integers and zero extend each one to a 16-bit lane
-* `i8x8.sxload(memarg) -> v128`: load eight 8-bit integers and sign extend each one to a 16-bit lane
-* `i16x4.zxload(memarg) -> v128`: load four 16-bit integers and zero extend each one to a 32-bit lane
-* `i16x4.sxload(memarg) -> v128`: load four 16-bit integers and sign extend each one to a 32-bit lane
-* `i32x2.zxload(memarg) -> v128`: load two 32-bit integers and zero extend each one to a 64-bit lane
-* `i32x2.sxload(memarg) -> v128`: load two 32-bit integers and sign extend each one to a 64-bit lane
+* `i16x8.load8x8_u(memarg) -> v128`: load eight 8-bit integers and zero extend each one to a 16-bit lane
+* `i16x8.load8x8_s(memarg) -> v128`: load eight 8-bit integers and sign extend each one to a 16-bit lane
+* `i32x4.load16x4_u(memarg) -> v128`: load four 16-bit integers and zero extend each one to a 32-bit lane
+* `i32x4.load16x4_s(memarg) -> v128`: load four 16-bit integers and sign extend each one to a 32-bit lane
+* `i64x2.load32x2_u(memarg) -> v128`: load two 32-bit integers and zero extend each one to a 64-bit lane
+* `i64x2.load32x2_s(memarg) -> v128`: load two 32-bit integers and sign extend each one to a 64-bit lane
 
 ### Store
 
